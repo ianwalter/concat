@@ -1,0 +1,15 @@
+{
+  "name": "@ianwalter/concat",
+  "description": "Concatenate the contents of files from a list of file glob patterns",
+  "scripts": {
+    "test": "bff"
+  },
+  "dependencies": {
+    "@ianwalter/fs": "^1.1.0",
+    "globby": "^9.2.0",
+    "p-reduce": "^2.1.0"
+  },
+  "devDependencies": {
+    "@ianwalter/bff": "^3.1.1"
+  }
+}

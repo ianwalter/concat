@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`files get concatenated 1`] = `
+"book one text
+book two text
+some book text
+book text
+"
+`;
