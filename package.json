@@ -1,15 +1,37 @@
 {
   "name": "@ianwalter/concat",
   "description": "Concatenate the contents of files from a list of file glob patterns",
+  "version": "0.0.0",
+  "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "index.js",
   "scripts": {
     "test": "bff"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianwalter/concat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ianwalter/concat/issues"
+  },
+  "homepage": "https://github.com/ianwalter/concat#readme",
+  "keywords": [
+    "concat",
+    "concatenate",
+    "files",
+    "glob"
+  ],
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "@ianwalter/fs": "^1.1.0",
     "globby": "^9.2.0",
     "p-reduce": "^2.1.0"
   },
   "devDependencies": {
-    "@ianwalter/bff": "^3.1.1"
+    "@ianwalter/bff": "^3.1.1",
+    "np": "^5.0.0"
   }
 }
